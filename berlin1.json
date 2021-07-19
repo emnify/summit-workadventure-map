@@ -23,9 +23,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
-                 "value":"berlin0.json"
+                 "value":".\/berlin0.json"
                 }],
          "type":"tilelayer",
          "visible":true,
