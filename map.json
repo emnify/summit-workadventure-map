@@ -150,7 +150,7 @@
          "value":"script.js"
         }],
  "renderorder":"right-down",
- "tiledversion":"2021.03.23",
+ "tiledversion":"1.7.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -900,9 +900,35 @@
                         }]
                 }],
          "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":321,
+         "image":"walls.png",
+         "imageheight":480,
+         "imagewidth":512,
+         "margin":0,
+         "name":"Walls",
+         "spacing":0,
+         "tilecount":240,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":561,
+         "image":"walls2.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"Walls2",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.5,
+ "version":"1.6",
  "width":46
 }
