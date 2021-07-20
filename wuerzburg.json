@@ -160,31 +160,42 @@
         }, 
         {
          "draworder":"topdown",
-         "id":23,
-         "name":"grafanaPopup",
+         "id":12,
+         "name":"floorLayer",
          "objects":[
                 {
-                 "height":37.3333333333334,
-                 "id":6,
-                 "name":"",
+                 "height":46,
+                 "id":8,
+                 "name":"grafanaPopup",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":220,
-                 "x":2273.33333333333,
-                 "y":969.333333333333
+                 "width":232,
+                 "x":2276,
+                 "y":961
+                }, 
+                {
+                 "height":46,
+                 "id":9,
+                 "name":"grafanaPopup",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":232,
+                 "x":426,
+                 "y":407
+                }, 
+                {
+                 "height":46,
+                 "id":10,
+                 "name":"jealousguyPopup",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":232,
+                 "x":1954,
+                 "y":1137
                 }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":12,
-         "name":"floorLayer",
-         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -227,8 +238,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":29,
- "nextobjectid":8,
+ "nextlayerid":30,
+ "nextobjectid":11,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -1245,19 +1256,19 @@
                 {
                  "animation":[
                         {
-                         "duration":200,
+                         "duration":100,
                          "tileid":1
                         }, 
                         {
-                         "duration":200,
+                         "duration":100,
                          "tileid":3
                         }, 
                         {
-                         "duration":200,
+                         "duration":100,
                          "tileid":9
                         }, 
                         {
-                         "duration":200,
+                         "duration":100,
                          "tileid":6
                         }],
                  "id":0

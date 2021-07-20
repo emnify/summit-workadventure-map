@@ -1,7 +1,12 @@
+let jealousguyPopup;
 let grafanaPopup;
 
-WA.onEnterZone('jealousguy', () => {
-  WA.sendChatMessage("I'm so jealous right now.", 'Jealous Guy');
+jealousguyPopup = WA.onEnterZone('jealousguy', () => {
+  WA.openPopup('jealousguyPopup', "I'm so jealous right now.", []);
+});
+
+WA.onLeaveZone('jealousguy', () => {
+  jealousguyPopup.close();
 });
 
 grafanaPopup = WA.onEnterZone('dashboard', () => {
