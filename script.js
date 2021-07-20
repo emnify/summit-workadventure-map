@@ -5,7 +5,7 @@ WA.onEnterZone('jealousguy', () => {
 });
 
 grafanaPopup = WA.onEnterZone('dashboard', () => {
-  openPopup('grafanaPopup', "Go to Grafana?", [
+  WA.openPopup('grafanaPopup', "Go to Grafana?", [
     {
       label: 'EMnify Prod',
       className: 'success',
