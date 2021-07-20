@@ -9,7 +9,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -27,7 +27,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -39,7 +39,7 @@
          "name":"floor_texture",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -69,7 +69,7 @@
          "name":"walls",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -81,7 +81,7 @@
          "name":"meetingroom_tablelegs",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -93,7 +93,7 @@
          "name":"walk_over",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -105,7 +105,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -116,7 +116,7 @@
          "name":"walk_under",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -128,7 +128,7 @@
          "name":"table_decorations",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
