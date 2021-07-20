@@ -1316,7 +1316,13 @@
                          "duration":100,
                          "tileid":6
                         }],
-                 "id":0
+                 "id":0,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }],
          "tilewidth":32
         }],
