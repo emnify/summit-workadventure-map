@@ -177,10 +177,10 @@
         {
          "name":"script",
          "type":"string",
-         "value":"script.js"
+         "value":".\/custom-script.js"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.7.0",
+ "tiledversion":"1.7.1",
  "tileheight":32,
  "tilesets":[
         {
