@@ -10,6 +10,7 @@ WA.onEnterZone('jealousguy', () => {
 WA.onLeaveZone('jealousguy', () => {
   if (jealousguyPopup) {
     jealousguyPopup.close();
+    jealousguyPopup = undefined;
   }
 });
 
@@ -46,5 +47,6 @@ WA.onEnterZone('dashboard', () => {
 WA.onLeaveZone('dashboard', () => {
   if (grafanaPopup) {
     grafanaPopup.close();
+    grafanaPopup = undefined;
   }
 });
